@@ -21184,6 +21184,8 @@ class MyComponentClass extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Com
   }
 }
 
+__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(MyComponentClass, null), document.getElementById('app'));
+
 module.exports = MyComponentClass();
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(33)(module)))
 
