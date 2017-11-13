@@ -13,12 +13,14 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
-    }
+    },
   ]
   },
   output: {
     filename: 'transformed.js',
     path: __dirname + '/build'
   },
-  plugins: [HTMLWebpackPluginConfig]
+
+  plugins: [HTMLWebpackPluginConfig],
+
 };
